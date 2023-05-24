@@ -1,5 +1,5 @@
-#ifndef HEADER_H
-#define HEADER_H
+#ifndef _HEADER_
+#define _HEADER_
 
 /**
  * struct dog - Dog attributes
@@ -16,15 +16,14 @@ struct dog
 	float age;
 	char *owner;
 };
-/**
- * dog_t - Structure of the dog
- */
 
+/**
+ * dog_t - Typedef for structure of a dog
+ */
 typedef struct dog dog_t;
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
 dog_t *new_dog(char *name, float age, char *owner);
 void free_dog(dog_t *d);
-
 #endif
