@@ -5,7 +5,7 @@
  * read_textfile- Read text file print to STDOUT.
  * @filename: Text file being read
  * @letters: Number of letters to be read
- * 
+ *
  * Return: w- actual number of bytes read and printed
  * 0 when function fails or filename is NULL.
  */
